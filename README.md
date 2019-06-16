@@ -7,16 +7,16 @@ Instead of using .rar files, we have added the individual files to the repositor
 2. Add script command file.
 3. Comment the location of some optimization strategies added to the code.
 
-#Please wait for us to issue the updates. You will be getting them in at most 14 days.
+# Please wait for us to issue the updates. You will be getting them in at most 14 days.
 
 # 2018.7.6 updated.
-#MCtandem
+# MCtandem
 
-#An MIC cluster-enabled spectrum dot product algorithm for large-scale peptide identification
+# An MIC cluster-enabled spectrum dot product algorithm for large-scale peptide identification
 
 MCtandem is a parallel peptide database search sequencing tool based on Many Integrated Core (MIC) cluster. It significantly increases the efficiency of large-scale database search sequencing and thus is significant in deriving peptide sequences from mass spectrometry data.
 
-#Installation and Requirements
+# Installation and Requirements
 
 Hardware requirements: MIC cluster. Each Intel MIC workstation besides containing an Intel Xeon E5-2640 v2 processor with 8 physical cores clocked at 2.0 GHz and 8G RAM, and an Intel Xeon Phi Coprocessor 7120P series with 61 cores at 1.33 GHz and 16G RAM. The running OS is NeoKylin 3.2, 64 bits.
 
@@ -34,7 +34,7 @@ Export OMP_STACKSIZE = 512m
 
 Export OMP_NUM_THREADS = 16
 
-#Usage:
+# Usage:
 
 Single
 
